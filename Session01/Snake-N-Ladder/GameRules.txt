@@ -1,0 +1,53 @@
+
+
+Goal: To Reach the Finish Box,Player who reaches finish box in less number of move is the winner
+
+Snake Position(8)
+===============
+98->79
+95->75
+93->73
+87->24
+62->19
+64->60
+54->34
+17->7
+
+
+Ladder Position(8)
+===============
+
+1->38
+4->14
+9->31
+21->42
+28->84
+51->67
+71->91
+80->100
+
+Game Rules:
+===========
+Game can only begin when player Click the Roll A dices button and 6 number is annouced. This is just a initiation , no move on the board.
+Player can only make a move on the board on a subsequent number annoucement. 
+Player need to click Roll A Dices button second time to actually start making move on the board.
+Display the snake head icon on the cell where snake bite is present
+Display the ladder icon on the cell where Ladder is present.
+
+Color Coding for each move
+==========================
+
+Source Cell should be in Red.
+Destination Cell should be in Green.
+Intermidate Cells should be in Yellow. 
+
+Note:
+
+Every subsequent move Destination Cell becomes Source Cell and color coding need to be applied accordingly.
+
+https://gist.github.com/kerimdzhanov/7529623
+// @return {integer} a random int between min and max
+function getRandomInt(min, max) {
+  return Math.floor(Math.random() * (max - min + 1) + min);
+}
+

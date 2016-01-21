@@ -8,4 +8,5 @@ New Horizon Series is a series of technology related sessions, that will be cond
 ##Goal
 _**Our goal behind this Series is to impart the knowledge of Software Technologies that we use in our day to day work and to focus on the emerging technologies that Mindtree is going to adopt**_
 	
-
+===========================================================================
+=====================================================================
